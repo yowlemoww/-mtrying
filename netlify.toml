@@ -6,3 +6,9 @@
 package = "netlify-plugin-cache"
 [plugins.inputs]
   paths = ["build/img"]
+ 
+  [[redirects]]
+  from = "/"
+  to = "/tr/"
+  status = 302
+  force = true
